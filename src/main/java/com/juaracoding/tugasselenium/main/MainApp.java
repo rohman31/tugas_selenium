@@ -20,15 +20,15 @@ public class MainApp {
 		
 		
 		Registered daftar = new Registered();
-//		daftar.regis();
-//		daftar.personalRegister();
-//		daftar.addressRegister();
-//		daftar.goToMenuForms();
+		daftar.regis();
+		daftar.personalRegister();
+		daftar.addressRegister();
+		daftar.goToMenuForms();
 		
 		Login masuk = new Login();
 		masuk.login();
 		masuk.personalAkun();
-//		masuk.logout();
+		masuk.logout();
 		
 
 //		try {
@@ -38,7 +38,7 @@ public class MainApp {
 //			e.printStackTrace();
 //		}
 //		
-//		driver.quit();
+		driver.quit();
 	}
 
 }
